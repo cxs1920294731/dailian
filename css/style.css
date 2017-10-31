@@ -1,0 +1,547 @@
+.hall .nav-header{
+    z-index: 3;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    padding: 0px 30px 0px 40px;
+    background-color: rgba(255, 113, 13, 0.95);
+}
+.hall .nav-header .logo{
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 45px;
+    height: 100%;
+    background-color: red;
+}
+.hall .nav-header .search-box{
+    width: 100%;
+    padding: 6px 0;
+}
+.hall .nav-header .search-box .search-link{
+    position: relative;
+    display: inline-block;
+    margin-left: 5%;
+    width: 80%;
+    padding: 2px 0;
+    color: #cccccc;
+    border-radius: 16px;
+    background-color: #ffffff;
+    font-size: 14px;
+    line-height: 28px;
+    padding-left: 14px;
+}
+.hall .nav-header .search-link .icon-search{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 20px;
+    top: 50%;
+    margin-top: -9px;
+}
+.hall .nav-footer{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 48px;
+    padding-top: 2px;
+    background-color: #ffffff;
+    box-shadow:0 -1px 1px #ccc;
+}
+.hall .nav-footer ul{
+    height: 100%;
+}
+.hall .nav-footer li{
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-size: 0;
+}
+.hall .nav-footer li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #cccccc;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.hall .nav-footer li.active a{
+    color: #ff6900;
+}
+.hall .index-main{
+    margin: 54px 0 60px;
+}
+.hall .swiper-img-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 52%;
+}
+.hall .swiper-img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hall .index-card .title{
+    font-size: 16px;
+}
+.hall .index-card .title .line{
+    position: relative;
+    bottom: 2px;
+    display: inline-block;
+    width: 14px;
+    height: 2px;
+    background-color: #ccc;
+    vertical-align: middle;
+}
+.hall .index-card .title .padding-l-r{
+    padding: 0 10px;
+    color: #333;
+}
+.hall .index-card .title .intro{
+    font-size: 12px;
+}
+.hall .form-box-index .form-select{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #f2f2f2;
+    border: none;
+    height: 38px;
+    margin-top: 10px;
+    padding-left: 12px;
+    line-height: 38px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.hall .form-box-index .form-select.active{
+    color: #4d4d4d;
+}
+.hall .form-box-index .form-select .icon-down-arrow{
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon-arrow-down.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hall .form-box-index .form-textarea{
+    display: inline-block;
+    width: 100%;
+    background: #f2f2f2;
+    border: none;
+    resize: none;
+    margin-top: 5px;
+    box-sizing: border-box;
+    height: 65px;
+    padding: 4px 12px;
+    margin-bottom: -3px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.hall .form-box-index .weixin{
+    display: inline-block;
+    height: 30px;
+    background: #f2f2f2;
+    width: 59%;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.hall .form-box-index .form-task{
+    margin-top: 5px;
+}
+.hall .form-box-index .btn-orange{
+    float: right;
+    height: 30px;
+    width: 39%;
+    padding: 0 8px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background: #ff6900;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+.hall .order-box{
+    display: block;
+    margin-right: -12px;
+    padding: 6px 15px 14px 22px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 14px;
+}
+.hall .order-box .title{
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.8;
+    height: 22px;
+    padding-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.hall .icon-order-index{
+    display: block;
+    position: absolute;
+    left: 0;
+    top:10px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon-order-index.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hall .order-box .order-intro{
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 1.6;
+}
+.hall .order-box .order-text{
+   font-size: 12px;
+}
+.hall .order-box .price{
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    margin-top: -11px;
+    color: #ff6900;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hall .index-card .read-more{
+    display: block;
+    padding-top: 10px;
+    color: #ff6900;
+    font-size: 14px;
+    text-align: center;
+}
+.hall .shop-box{
+    position: relative;
+    display: block;
+    margin-right: -12px;
+    padding: 6px 15px 14px 90px;
+    border-bottom: 1px solid #ccc;
+    color: #333;
+    font-size: 14px;
+}
+.hall .shop-box .shop-img{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 0;
+    top: 9px;
+    background-color: red;
+}
+.hall .shop-box .shop-img img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.hall .shop-box  .title{
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+    height: 38px;
+    padding-bottom: 3px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.hall .shop-box .price{
+    margin: 4px 0;
+    color: #ff6600;
+    font-size: 12px;
+    height: 21px;
+}
+.hall .shop-box .intro{
+    position: relative;
+    font-size: 12px;
+    color: #b0b0b0;
+    text-align: right;
+}
+.hall .shop-box .intro .icon-shop-fire{
+    position: absolute;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    left: 0;
+}
+.hall .shop-box .intro .icon-shop-fire img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/*.hall .index-layer .game-list*/
+.index-layer .game-list li{
+    padding: 8px 0;
+    border-top: 1px solid #cccccc;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+}
+.index-layer{
+    padding: 0 !important;
+}
+.hall .nav-header-order{
+    z-index: 3;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0;
+    color: #333;
+    background-color: rgba(255, 113, 13, 0.95);
+    font-size: 14px;
+}
+.hall .order-detail{
+    margin: 53px 0 70px;
+}
+.hall .nav-header-order .go-back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+}
+.hall .nav-header-order .icon-arrow-left{
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    margin-top: -8px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/icon-arrow-left.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hall .order-detail .title{
+    position: relative;
+    margin-right: -12px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    border-bottom: 1px solid #cccccc;
+}
+.hall .order-detail .title .icon-order-title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../images/icon-money.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hall .order-detail .title .name{
+    color: #ff6900;
+    font-size: 16px;
+}
+.hall .order-detail .title .state{
+    position: absolute;
+    right: 16px;
+    color: #339efe;
+}
+.hall .order-detail .order-content{
+    padding-top: 8px;
+    line-height: 18px;
+}
+.hall .order-detail .order-content li{
+    position: relative;
+    padding-left: 60px;
+}
+.hall .order-detail .order-content .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.hall .order-detail .order-content .text{
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-clamp: 1;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.hall .order-detail .ask-title{
+    position: relative;
+    margin-right: -12px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    border-bottom: 1px solid #cccccc;
+    color: #333;
+    font-size: 14px;
+}
+.hall .order-detail .ask-title .attention{
+    margin-left: 4px;
+    padding: 0 2px;
+    border-radius: 2px;
+    border: 1px solid #369efd;
+    color: #369efd;
+    background-color: rgba(54, 158, 253,0.1);
+    font-size: 12px;
+    line-height: 1.2;
+}
+.hall .order-detail .order-content-more{
+    padding-top: 8px;
+    line-height: 18px;
+}
+.hall .order-detail .ask-title .icon-order-title{
+    position: absolute;
+    top: 1px;
+    left: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.hall .order-detail .ask-title .icon-order-title.icon-1{
+    background: url(../images/icon-a-write.png) no-repeat;
+    background-size: 100% 100%;
+}
+.hall .order-detail .ask-title .icon-order-title.icon-2{
+    background: url(../images/icon-attention.png) no-repeat;
+    background-size: 100% 100%;
+}
+.hall .order-detail-footer .btn-submit{
+    float: right;
+    display:block;
+    margin-top: -2px;
+    width: 50%;
+    height: 50px;
+    line-height: 47px;
+    color: #ffffff;
+    background-color: #ff6900;
+    font-size: 16px;
+}
+.nav-header.order-list{
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 0;
+}
+.nav-header.order-list .order-seach-select{
+    font-size: 0;
+}
+.nav-header.order-list .order-option{
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    padding: 14px 20px 14px 10px;
+    font-size: 12px;
+}
+.nav-header.order-list .order-option .name.active{
+    color: #ff6900;
+}
+.nav-header.order-list .order-option .arrow{
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    margin-top: -3px;
+    right: 14px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-top: 6px solid #cccccc;
+    border-right: 5px solid transparent;
+}
+.nav-header.order-list .order-option .arrow.active{
+    border-left: 5px solid transparent;
+    border-bottom: 6px solid #ff6900;
+    border-top: 0px solid #cccccc;
+    border-right: 5px solid transparent;
+}
+.nav-header.order-list .order-option .right-border{
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    right: 0;
+    border-right: 1px solid #cccccc;
+}
+.order-select-layer{
+    display: none;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    top: 44px;
+    bottom: 50px;
+    left: 0;
+    background-color: rgba(0,0,0,0.42);
+}
+.order-select-layer.show{
+    display: block;
+}
+.order-select-layer .game-list-select{
+    border-top: 1px solid #ccc;
+    background-color: #ffffff;
+}
+.order-select-layer .game-list-select .game-li{
+    padding: 10px 14px;
+    border-bottom: 1px solid #cccccc;
+}
+.order-select-layer .game-list-select .game-li.active{
+    color: #ff6900;
+}
+.order-select-layer .high-select{
+    position: relative;
+    height: 98%;
+    background-color: #ffffff;
+    overflow: scroll;
+}
+.order-select-layer .radio-select{
+    padding: 10px 14px;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+.order-select-layer .radio-select .title{
+    padding-bottom: 10px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+}
+.order-select-layer .radio-select .select-box{
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 0;
+}
+.order-select-layer .radio-select .select-li{
+    display: inline-block;
+    width: 33%;
+    padding: 0 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.order-select-layer .radio-select .select-li .text{
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    text-align: center;
+}
+.order-select-layer .radio-select .select-li .hidden{
+    display: none;
+}
+.order-select-layer .radio-select .select-li .hidden:checked+.text{
+    border-color: #ff6900;
+    color: #ff6900;
+}
