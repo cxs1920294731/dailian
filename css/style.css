@@ -507,6 +507,29 @@
     background-color: #ffffff;
     overflow: scroll;
 }
+.order-select-layer .high-select .bottom-btn{
+    width: 100%;
+    margin-top: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.order-select-layer .high-select .bottom-btn .btn{
+    display: inline-block;
+    width: 48%;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+}
+.order-select-layer .high-select .bottom-btn .btn-clear{
+    padding: 8px 0;
+    border: 1px solid #cccccc;
+}
+.order-select-layer .high-select .bottom-btn .btn-ok{
+    float: right;
+    padding: 8px 0;
+    color: #ffffff;
+    background-color: #369efd;
+}
 .order-select-layer .radio-select{
     padding: 10px 14px;
     overflow: hidden;
