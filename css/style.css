@@ -319,12 +319,26 @@
 .hall .order-detail{
     margin: 53px 0 70px;
 }
+.hall .head-foot-contain{
+    margin: 53px 0 70px;
+}
+.hall .head-contain{
+    margin: 53px 0 0px;
+}
 .hall .nav-header-order .go-back{
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 40px;
+}
+.hall .nav-header-order .go-back .btn-cancel{
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    width: 2em;
+    margin-top: -10px;
+    text-align: center;
 }
 .hall .nav-header-order .icon-arrow-left{
     position: absolute;
@@ -406,6 +420,13 @@
 .hall .order-detail .order-content-more{
     padding-top: 8px;
     line-height: 18px;
+}
+.hall .order-detail .order-content-more .text-order{
+    width: 100%;
+    height: 40px;
+    padding: 0 0px;
+    line-height: 20px;
+    resize: none;
 }
 .hall .order-detail .ask-title .icon-order-title{
     position: absolute;
@@ -567,4 +588,67 @@
 .order-select-layer .radio-select .select-li .hidden:checked+.text{
     border-color: #ff6900;
     color: #ff6900;
+}
+.hall .hidden{
+    display: none;
+}
+.hall .game-all{
+    padding-left: 14px;
+    padding-bottom: 12px;
+    background-color: #ffffff;
+}
+.hall .add-order .game-li{
+    position: relative;
+    padding: 10px 0;
+    border-bottom: 1px solid #cccccc;
+    font-size: 14px;
+}
+.hall .add-order .game-li label{
+    display: block;
+    width: 100%;
+}
+.hall .add-order .game-li .circle-1{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    width: 12px;
+    height: 12px ;
+    margin-top: -6px;
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+.hall .add-order .game-li input:checked+.circle-1 .circle-2{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #ff6900;
+    line-height: 15px;
+}
+.hall .add-order .btn-ok{
+    display: block;
+    margin: 18px 14px 0px;
+    padding: 10px 0;
+    border-radius: 6px;
+    color: #ffffff;
+    background-color: #ff6900;
+    text-align: center;
+}
+.hall .add-order .order-select-game{
+    padding-left: 14px;
+    padding-bottom: 10px;
+    color:#333;
+    font-size: 14px;
+    font-weight: normal;
+}
+.hall .order-detail-footer .btn-ok{
+    display: block;
+    margin: 6px 14px 7px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #ff6900;
 }
