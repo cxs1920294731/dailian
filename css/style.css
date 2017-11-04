@@ -1,3 +1,4 @@
+
 .hall .nav-header{
     z-index: 3;
     position: fixed;
@@ -357,6 +358,10 @@
     padding-left: 28px;
     border-bottom: 1px solid #cccccc;
 }
+.hall .order-detail .title.no-border{
+    padding-bottom: 0;
+    border-bottom-width: 0;
+}
 .hall .order-detail .title .icon-order-title{
     position: absolute;
     top: 0;
@@ -380,9 +385,15 @@
     padding-top: 8px;
     line-height: 18px;
 }
-.hall .order-detail .order-content li{
+.hall .order-detail .order-content .order-li{
     position: relative;
     padding-left: 60px;
+}
+.hall .order-detail .order-content .add-order-li{
+    position: relative;
+    margin-right: -12px;
+    padding:8px 10px 8px 60px;
+    border-top: 1px solid #cccccc;
 }
 .hall .order-detail .order-content .name{
     position: absolute;
@@ -651,4 +662,10 @@
     line-height: 37px;
     text-align: center;
     background-color: #ff6900;
+}
+.hall .order-detail .add-order-li .name{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
 }
