@@ -326,6 +326,9 @@
 .hall .head-contain{
     margin: 53px 0 0px;
 }
+.hall .foot-contain{
+    margin: 0 0 60px;
+}
 .hall .nav-header-order .go-back{
     position: absolute;
     top: 0;
@@ -710,4 +713,86 @@
     margin-left: -8px;
     background: url("../images/arrow-right.png") no-repeat;
     background-size: 100% 100%;
+}
+.hall .user-header-info{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 6px;
+    color: #ffffff;
+    background-color: #ff6900;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.hall .user-header-info .user-photo{
+    display: inline-block;
+    margin: 12px 0 8px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+}
+.hall .font-16{
+    font-size: 16px;
+}
+.hall .font-14{
+    font-size: 14px;
+}
+.hall .font-12{
+    font-size: 12px;
+}
+.hall .user-header-info .head-account{
+    margin: 12px -6px -6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #ff7300;
+}
+.hall .user-header-info .head-account .li{
+    float: left;
+    width: 50%;
+}
+.hall .user-header-info .head-account .li.border-right{
+    border-right: 1px solid rgba(255,255,255,0.5);
+}
+.hall .user-content{
+    padding: 0px 0px 4px 40px;
+    background-color: #ffffff;
+}
+.hall .user-content .li{
+    position: relative;
+    padding: 12px 0;
+    padding-right: 40px;
+    border-bottom: 1px solid #cccccc;
+}
+.hall .user-content .li:last-child{
+    border-bottom: 0px solid #cccccc;
+}
+.hall .user-content .li .icon-user-account{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: -28px;
+    margin-top: -8px;
+    background-color: red;
+}
+.hall .user-content .li .arrow-right-user{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 40px;
+    height: 100%;
+}
+.hall .user-content .li .arrow-right-user .arrow-right{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url("../images/arrow-right-gray.png") no-repeat;
+    background-size: 100% 100%;
+}
+.hall  .margin-top-10{
+    margin-top: 10px;
 }
