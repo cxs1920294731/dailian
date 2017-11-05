@@ -392,7 +392,7 @@
 .hall .order-detail .order-content .add-order-li{
     position: relative;
     margin-right: -12px;
-    padding:8px 10px 8px 60px;
+    padding:8px 38px 8px 75px;
     border-top: 1px solid #cccccc;
 }
 .hall .order-detail .order-content .name{
@@ -668,4 +668,46 @@
     top: 50%;
     left: 0;
     margin-top: -9px;
+}
+.hall .order-detail .order-content .input-text{
+    display: block;
+    width: 100%;
+}
+.hall .order-detail .order-content .add-order-li .name{
+    color: #000;
+}
+.hall .order-detail .order-content .add-order-li .address-right{
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    margin-top: -9px;
+    color: #ff6900;
+}
+.hall .order-detail .order-content .add-order-li .input-textarea{
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 36px;
+}
+.hall .order-detail .order-content .add-order-li .textarea{
+    top: 8px;
+    margin-top: 0;
+}
+.hall .order-detail .order-content .add-order-li .select-game-serve{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+}
+.hall .order-detail  .add-order-li .select-game-serve .arrow-right{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url("../images/arrow-right.png") no-repeat;
+    background-size: 100% 100%;
 }

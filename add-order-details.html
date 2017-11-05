@@ -24,32 +24,45 @@
                 <ul class="order-content">
                     <li class="add-order-li">
                         <span class="name">订单标题:</span>
-                        <textarea class="text" name="title" placeholder="请在25个字内填写您的个性标题(必填)"></textarea>
+                        <input class="input-text" type="text" name="title" placeholder="请在25个字内填写您的个性标题(必填)"></textarea>
                     </li>
                     <li class="add-order-li">
-                        <span class="name">放弃修复:</span>
-                        <input class="text" name="" type="text" placeholder="请选择您所在的区服(必填)">
+                        <span class="name">所在区服:</span>
+                        <input class="input-text" name="game-server" type="text" placeholder="请选择您所在的区服(必填)">
+                        <a class="select-game-serve">
+                            <i class="arrow-right"></i>
+                        </a>
+                    </li>
+                    <li class="add-order-li">
+                        <span class="name">游戏账号:</span>
+                        <input class="input-text" name="game-account" type="text" placeholder="请输入您的游戏账号(必填项)">
+                    </li>
+                    <li class="add-order-li">
+                        <span class="name">游戏密码:</span>
+                        <input class="input-text" name="game-password" type="password" placeholder="请输入您的游戏密码">
                     </li>
                     <li class="add-order-li">
                         <span class="name">订单价格:</span>
-                        <input class="" type="number">
-                    </span>
+                        <input class="input-text" name="order-price" type="number" placeholder="请输入金额(必填项)">
+                        <i class="address-right">元</i>
                     </li>
                     <li class="add-order-li">
-                        <span class="name">所在服区:</span>
-                        <span class="text">王者荣耀/苹果-微信/默认服</span>
+                        <span class="name">安全保证金:</span>
+                        <input class="input-text" name="security deposit" type="number" placeholder="请输入金额(必填项)">
+                        <i class="address-right">元</i>
                     </li>
                     <li class="add-order-li">
                         <span class="name">要求时间:</span>
-                        <span class="text">30小时</span>
+                        <input class="input-text" name="time" type="number" placeholder="要求时间(必填项)">
+                        <i class="address-right">小时</i>
                     </li>
                     <li class="add-order-li">
-                        <span class="name">保&nbsp;&nbsp;证 金:</span>
-                        <span class="text">¥44.00</span>
+                        <span class="name">号主手机:</span>
+                        <input class="input-text" name="phone" type="text" placeholder="请输入您的游戏角色名称(必填项)">
                     </li>
                     <li class="add-order-li">
-                        <span class="name">发&nbsp;&nbsp;布 者:</span>
-                        <span class="text">曹帅帅帅啊</span>
+                        <span class="name textarea">游戏说明:</span>
+                        <textarea class="input-textarea" name="game-intro" placeholder="输入游戏说明(可不填，100字内)"></textarea>
                     </li>
                 </ul>
             </div>
