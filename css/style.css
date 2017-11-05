@@ -731,6 +731,12 @@
     border-radius: 50%;
     background-color: red;
 }
+.hall .user-header-info .user-photo img{
+    display: block;
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+}
 .hall .font-16{
     font-size: 16px;
 }
@@ -762,6 +768,9 @@
     padding: 12px 0;
     padding-right: 40px;
     border-bottom: 1px solid #cccccc;
+}
+.hall .user-content .li a{
+    display: block;
 }
 .hall .user-content .li:last-child{
     border-bottom: 0px solid #cccccc;
