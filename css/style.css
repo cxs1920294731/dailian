@@ -805,3 +805,77 @@
 .hall  .margin-top-10{
     margin-top: 10px;
 }
+/*个人资料页面*/
+.hall .user-info .order-content .add-order-li {
+    display: block;
+    position: relative;
+    margin-right: -12px;
+    padding: 10px 50px 10px 75px;
+    border-bottom: 1px solid #cccccc;
+    color: #767676;
+}
+.hall .user-info .order-content li:last-child .add-order-li{
+    border-bottom-width: 0;
+}
+.hall .user-info .add-order-li .name {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    color: #000000;
+}
+.hall .user-info .order-content .add-order-li .select-game-serve {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 100%;
+}
+.hall .user-info .add-order-li .user-photo{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+}
+.hall .user-info .add-order-li .select-game-serve .arrow-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url(../images/arrow-right-gray.png) no-repeat;
+    background-size: 100% 100%;
+}
+.hall .user-info .index-card {
+    padding: 0px 12px 0px 12px;
+    background-color: #ffffff;
+}
+.hall .set-user-info{
+    position: relative;
+    padding: 10px 38px 10px 85px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+.hall .set-user-info .name{
+    position: absolute;
+    top: 50%;
+    left: 14px;
+    margin-top: -9px;
+    color: #000000;
+}
+.hall .btn-ok-set-info{
+    display: block;
+    margin: 40px 14px 7px;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 37px;
+    text-align: center;
+    background-color: #ff6900;
+}
+.hall .set-user-info-header{
+    background-color: #ffffff;
+}

@@ -126,3 +126,6 @@ input,textarea{font-family:"Microsoft YaHei","微软雅黑","黑体","宋体",He
 }
 .hall .no-border{
 }
+.hall .text-right{
+    text-align: right;
+}
