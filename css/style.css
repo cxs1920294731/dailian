@@ -879,3 +879,18 @@
 .hall .set-user-info-header{
     background-color: #ffffff;
 }
+.hall .order-management{
+    font-size: 0;
+}
+.hall .order-management .order-option{
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    padding: 14px 20px 14px 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.hall .order-management .order-option.active{
+    background-color: #ff6900;
+    color: #ffffff;
+}
