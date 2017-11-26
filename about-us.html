@@ -21,14 +21,29 @@
         <h5 class="text-center topic">代练宝</h5>
         <p class="text">在代练市场混乱,低效,信任危机严重,我们想尽心做好带来你平台,为好的打手提供更编辑便捷,优质的服务,精心筛选好的商人提供价格更具有吸引力的订单,我们一直在努力,也感谢你的一路陪伴.</p>
     </div>
+    <ul>
+        <li>Hello</li>
+        <li>Hello</li>
+        <li>Hello</li>
+    </ul>
+    <div class="attr ni"></div>
+    <div class="attr"></div>
+    <div class="attr ni"></div>
+    <div class="attr"></div>
+    <button id="onclick">点击</button>
 </div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/swiper-3.3.1.jquery.min.js"></script>
 <script src="js/layer.js"></script>
 <script>
-    $('#go-back').click(function () {
+    $('body').on('click','#go-back', function () {
         history.go(-1);
     })
+    let JqDOM=$('div');
+    let dom= $('.attr');
+    $('#onclick').click(function () {
+        $('ul li').toggleClass('two');
+    });
 </script>
 </body>
 </html>
