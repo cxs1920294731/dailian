@@ -21,6 +21,18 @@
         </div>
         <a class="btn-ok-set-info">确认</a>
     </div>
+    <form action="/index/Regist" method="post">
+        <div>
+            <span>邮箱地址</span><input type="text" name="EmailName" placeholder="请输入发送邮箱名"/>
+        </div>
+        <div>
+            <span>标题</span><input name="EmailTopic" placeholder="请输入邮箱正文"></textarea>
+        </div>
+        <div>
+            <span>要发送邮箱的正文</span><textarea name="EmailText" placeholder="请输入邮箱正文"></textarea>
+        </div>
+        <input type="submit"  value=" 提交" />
+    </form>
 </div>
 <script src="js/jquery-3.1.1.min.js"></script>
 <script src="js/swiper-3.3.1.jquery.min.js"></script>
