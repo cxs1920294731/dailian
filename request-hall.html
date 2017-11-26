@@ -1,10 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>服务大厅</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
+    <div class="request-hall">
+        <!--有bug，用户如果自己滑动幻灯片过后，幻灯片则不能自动播放了-->
+        <div class="swiper-container margin-bottom-10">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide">
+                    <i class="swiper-img-box">
+                        <img src="images/inder-banner.png" alt="">
+                    </i>
+                </li>
+                <li class="swiper-slide">
+                    <i class="swiper-img-box">
+                        <img src="images/index-banner-2.jpg" alt="">
+                    </i>
+                </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
 
+        <div class="nav-header order-list">
+            <ul class="order-seach-select">
+                <li class="order-option">
+                    <span class="name">综合销量</span>
+                    <span class="right-border">&nbsp;</span>
+                    <i class="arrow"></i>
+                    <div class="order-select-layer">
+                        <ul class="game-list-select">
+                            <li class="game-li active">由低到高</li>
+                            <li class="game-li">由高到低</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="order-option">
+                    <span class="name">价格</span>
+                    <span class="right-border">&nbsp;</span>
+                    <i class="arrow"></i>
+                    <div class="order-select-layer">
+                        <ul class="game-list-select">
+                            <li class="game-li active">由低到高</li>
+                            <li class="game-li">由高到低</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="order-option">
+                    <span class="name">店铺类型</span>
+                    <span class="right-border">&nbsp;</span>
+                    <i class="arrow"></i>
+                    <div class="order-select-layer">
+                        <ul class="game-list-select">
+                            <li class="game-li active">游戏不限</li>
+                            <li class="game-li">英雄联盟</li>
+                            <li class="game-li">王者荣耀</li>
+                            <li class="game-li">绝地求生</li>
+                            <li class="game-li">守望先锋</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="order-option">
+                    <span class="name">地区</span>
+                    <span class="right-border">&nbsp;</span>
+                    <i class="arrow"></i>
+                    <div class="order-select-layer">
+                        <div class="high-select">
+                            <div class="radio-select">
+                                <h6 class="title">代练价格</h6>
+                                <ul class="select-box">
+                                    <li class="select-li">
+                                        <label>
+                                            <input class="hidden" type="radio" name="price" hidden checked>
+                                            <span class="text">不限</span>
+                                        </label>
+                                    </li>
+                                    <li class="select-li">
+                                        <label>
+                                            <input class="hidden" type="radio" name="price" hidden >
+                                            <span class="text">1~100</span>
+                                        </label>
+                                    </li>
+                                    <li class="select-li">
+                                        <label>
+                                            <input class="hidden" type="radio" name="price" hidden >
+                                            <span class="text">100~200</span>
+                                        </label>
+                                    </li>
+                                    <li class="select-li">
+                                        <label>
+                                            <input class="hidden" type="radio" name="price" hidden >
+                                            <span class="text">200~300</span>
+                                        </label>
+                                    </li>
+                                    <li class="select-li">
+                                        <label>
+                                            <input class="hidden" type="radio" name="price" hidden >
+                                            <span class="text">300以上</span>
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="row bottom-btn">
+                                <a class="btn btn-clear">清空</a>
+                                <a class="btn btn-ok">确认</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="margin-bottom-10 index-card shop-item">
+            <!--<div class="title text-center">-->
+                <!--<span class="line"></span>-->
+                <!--<span class="padding-l-r">人气旺铺</span>-->
+                <!--<span class="line"></span>-->
+            <!--</div>-->
+            <ul>
+                <li>
+                    <a class="is-relative shop-box">
+                        <i class="shop-img">
+                            <img src="images/shop-logo.png" alt="">
+                        </i>
+                        <div>
+                            <h6 class="title">专业代练英雄联盟lol 3天上钻石 10天上王者统统不是梦</h6>
+                            <p class="price">¥44.00/起</p>
+                            <div class="intro">
+                                <i class="icon-shop-fire">
+                                    <img src="images/icon-shop-index.png" alt="">
+                                </i>
+                                <span class="volume">成交45笔</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="is-relative shop-box">
+                        <i class="shop-img">
+                            <img src="images/shop-logo.png" alt="">
+                        </i>
+                        <div>
+                            <h6 class="title">专业代练英雄联盟lol 3天上钻石 10天上王者统统不是梦</h6>
+                            <p class="price">¥44.00/起</p>
+                            <div class="intro">
+                                <i class="icon-shop-fire">
+                                    <img src="images/icon-shop-index.png" alt="">
+                                </i>
+                                <span class="volume">成交45笔</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a  class="is-relative shop-box">
+                        <i class="shop-img">
+                            <img src="images/shop-logo.png" alt="">
+                        </i>
+                        <div>
+                            <h6 class="title">专业代练英雄联盟lol 3天上钻石 10天上王者统统不是梦</h6>
+                            <p class="price">¥44.00/起</p>
+                            <div class="intro">
+                                <i class="icon-shop-fire">
+                                    <img src="images/icon-shop-index.png" alt="">
+                                </i>
+                                <span class="volume">成交45笔</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="is-relative shop-box">
+                        <i class="shop-img">
+                            <img src="images/shop-logo.png" alt="">
+                        </i>
+                        <div>
+                            <h6 class="title">专业代练英雄联盟lol 3天上钻石 10天上王者统统不是梦</h6>
+                            <p class="price">¥44.00/起</p>
+                            <div class="intro">
+                                <i class="icon-shop-fire">
+                                    <img src="images/icon-shop-index.png" alt="">
+                                </i>
+                                <span class="volume">成交45笔</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="is-relative shop-box">
+                        <i class="shop-img">
+                            <img src="images/shop-logo.png" alt="">
+                        </i>
+                        <div>
+                            <h6 class="title">专业代练英雄联盟lol 3天上钻石 10天上王者统统不是梦</h6>
+                            <p class="price">¥44.00/起</p>
+                            <div class="intro">
+                                <i class="icon-shop-fire">
+                                    <img src="images/icon-shop-index.png" alt="">
+                                </i>
+                                <span class="volume">成交45笔</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <a class="read-more" href="shop.html">查看更多</a>
+            </div>
+        </div>
+
+        <footer class="nav-footer">
+            <ul class="row text-center">
+                <li class="active"><a href="index.html">
+                    <i class="icon icon-footer icon-home"></i>
+                    <p>主页</p>
+                </a></li>
+                <li><a href="product-list.html">
+                    <i class="icon icon-footer icon-list"></i>
+                    <p>大厅</p>
+                </a></li>
+                <li><a href="add-order.html">
+                    <i class="icon icon-footer icon-task"></i>
+                    <p>发需求</p>
+                </a></li>
+                <li><a href="request-hall.html">
+                    <i class="icon icon-footer icon-shop"></i>
+                    <p>旺铺</p>
+                </a></li>
+                <li><a href="user.html">
+                    <i class="icon icon-footer icon-user"></i>
+                    <p>我的</p>
+                </a></li>
+            </ul>
+        </footer>
+
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="js/layer.js"></script>
+    <script>
+        $(function () {
+            var mySwiper = new Swiper ('.swiper-container', {
+                loop: true,
+                autoplay : 3000,
+                pagination: '.swiper-pagination',
+            });
+        })
+        $(function () {
+            $('body').on('click','.order-seach-select .order-option',function () {
+                var layerDom = $(this).children('.order-select-layer');
+                var self = $(this).children('.name');
+                var arrow = $(this).children('.arrow');
+                for (var i = 0,j=$(this).siblings().children('.name').length;i<j;i++){
+                    $(this).siblings().children('.order-select-layer').eq(i).removeClass('show');
+                    $(this).siblings().children('.name').eq(i).removeClass('active');
+                    $(this).siblings().children('.arrow').eq(i).removeClass('active');
+                }
+                if(layerDom.hasClass('show')){
+                    layerDom.removeClass('show');
+                    self.removeClass('active');
+                    arrow.removeClass('active');
+                }else {
+                    layerDom.addClass('show');
+                    self.addClass('active');
+                    arrow.addClass('active');
+                }
+            });
+            $('body').on('click','.order-seach-select .order-select-layer .game-li',function (e) {
+                e.stopPropagation();
+                var parentDom = $(this).parents('.order-option').children('.name');
+                var arrowDom = $(this).parents('.order-option').children('.arrow')
+                $(this).addClass('active').siblings().removeClass('active');
+                parentDom.text($(this).text());
+                arrowDom.removeClass('active');
+                parentDom.removeClass('active');
+                $(this).parents('.order-select-layer').removeClass('show');
+            })
+            $('body').on('click','.order-seach-select .order-select-layer .high-select',function (e) {
+                e.stopPropagation();
+            })
+        })
+    </script>
 </body>
 </html>
