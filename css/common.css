@@ -122,6 +122,9 @@ input,textarea{font-family:"Microsoft YaHei","微软雅黑","黑体","宋体",He
 .text-center{
     text-align: center;
 }
+.text-left{
+    text-align: left;
+}
 .hall .is-orange{
     color: #ff6900;
 }
