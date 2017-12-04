@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="UTF-8">
+    <title>充值中心</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="recharge-center">
+        <header>
+            <div class="swiper-container margin-bottom-10">
+                <ul class="swiper-wrapper">
+                    <li class="swiper-slide">
+                        <i class="swiper-img-box">
+                            <img src="images/inder-banner.png" alt="">
+                        </i>
+                    </li>
+                    <li class="swiper-slide">
+                        <i class="swiper-img-box">
+                            <img src="images/index-banner-2.jpg" alt="">
+                        </i>
+                    </li>
+                </ul>
+                <div class="swiper-pagination"></div>
+            </div>
+            <ul class="charge-nav row">
+                <li class="charge-item"><span>流量充值</span></li>
+                <li class="charge-item"><span>话费充值</span></li>
+                <li class="charge-item"><span>Q币充值</span></li>
+            </ul>
+        </header>
+        <div class="phone-number">
+            <input type="text" placeholder="请输入你的手机号"/>
+        </div>
+        <div class="price-number">
+            <ul class="price-row row">
+                <li class="price-item">20M</li>
+                <li class="price-item">30M</li>
+                <li class="price-item">40M</li>
+                <li class="price-item">50M</li>
+                <li class="price-item">60M</li>
+                <li class="price-item">70M</li>
+                <li class="price-item">80M</li>
+                <li class="price-item">90M</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/swiper-3.3.1.jquery.min.js"></script>
+    <script src="js/layer.js"></script>
+    <script>
+        $(function () {
+            var mySwiper = new Swiper ('.swiper-container', {
+                loop: true,
+                autoplay : 3000,
+                pagination: '.swiper-pagination',
+            });
+        })
+    </script>
+
+</body>
+</html>
